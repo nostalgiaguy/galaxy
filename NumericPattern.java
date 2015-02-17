@@ -40,7 +40,7 @@ public class NumericPattern {
 
 	public static void main(String[] args) {
 		
-		int read=2;
+		int read=1;
 		while(read<1000000000){
 		System.out.println("Tread="+read);
 		int sum=parseNum(read);
