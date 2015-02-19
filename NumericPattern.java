@@ -1,3 +1,4 @@
+//******************************************************
 public class NumericPattern {
 	public static String parseNum=""; 
 	
