@@ -1,5 +1,5 @@
 # galaxy
-
+********************************************************
 NumericPattern.java is a class which is generating series 
 1,
 11,
