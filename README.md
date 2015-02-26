@@ -10,3 +10,6 @@ NumericPattern.java is a class which is generating series
 312211,
 13112221,
 1113213211
+
+package com.nostalgiaguy.singleton 
+refrence javacode geeks.
