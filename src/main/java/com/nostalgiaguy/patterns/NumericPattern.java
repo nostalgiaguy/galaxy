@@ -1,4 +1,6 @@
 //******************************************************
+
+package com.nostalgiaguy.patterns;
 public class NumericPattern {
 	public static String parseNum=""; 
 	
