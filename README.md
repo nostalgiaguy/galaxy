@@ -1,6 +1,6 @@
 # galaxy
 ********************************************************
-hello friends
+package com.nostalgiaguy.patterns
 NumericPattern.java is a class which is generating series 
 1,
 11,
@@ -13,3 +13,6 @@ NumericPattern.java is a class which is generating series
 
 package com.nostalgiaguy.singleton 
 refrence javacode geeks.
+
+package com.nostalgiaguy.dynamicprogramming
+refrence  http://www.javacodegeeks.com/2014/02/dynamic-programming-introduction.html 
