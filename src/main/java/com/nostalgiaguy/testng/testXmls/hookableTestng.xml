@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="HookableExample Suite">
+	<test name="HookableListenerExample">
+		<classes>
+			<class name="com.nostalgiaguy.testng.test.HookableExample" />
+		</classes>
+	</test>
+</suite>

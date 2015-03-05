@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteListenerExample">
+	<listeners>
+		<listener class-name="com.nostalgiaguy.testng.listeners.SuiteListener" />
+	</listeners>
+<suite-files>
+	     <suite-file path="./childSuite.xml"/>
+	  </suite-files>
+</suite>

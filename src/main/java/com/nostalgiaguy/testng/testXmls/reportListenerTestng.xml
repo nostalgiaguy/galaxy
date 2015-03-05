@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestListenerExample Suite">
+	<listeners>
+		<listener class-name="com.nostalgiaguy.testng.listeners.ReporterListener" />
+	</listeners>
+	<test name="TestListenerExample">
+		<classes>
+			<class name="com.nostalgiaguy.testng.test.ReporterListenerExample" />
+		</classes>
+	</test>
+</suite>
