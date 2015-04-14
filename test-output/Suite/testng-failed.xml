@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="ui" value="web"/>
+  <listeners>
+    <listener class-name="com.nostalgiaguy.testng.listeners.TestAnnotationTransformerListener"/>
+    <listener class-name="com.nostalgiaguy.testng.listeners.SuiteListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.nostalgiaguy.testng.test.TestAnnotationTransformerExample">
+        <methods>
+          <include name="test_2"/>
+          <include name="test_1"/>
+        </methods>
+      </class> <!-- com.nostalgiaguy.testng.test.TestAnnotationTransformerExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

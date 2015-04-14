@@ -12,6 +12,7 @@ public class BottomUpApproachFibonacciSeries_1 {
 		
 		for(int i=3;i<=n;i++){
 			current=n1 + n2;
+			//System.out.println(current);
 			n2=n1;
 			n1=current;
 		}

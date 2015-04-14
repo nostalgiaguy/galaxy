@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestListenerExample Suite]">
+  <listeners>
+    <listener class-name="com.nostalgiaguy.testng.listeners.ReporterListener"/>
+  </listeners>
+  <test name="TestListenerExample(failed)">
+    <classes>
+      <class name="com.nostalgiaguy.testng.test.ReporterListenerExample">
+        <methods>
+          <include name="t2"/>
+          <include name="t4"/>
+        </methods>
+      </class> <!-- com.nostalgiaguy.testng.test.ReporterListenerExample -->
+    </classes>
+  </test> <!-- TestListenerExample(failed) -->
+</suite> <!-- Failed suite [TestListenerExample Suite] -->
