@@ -6,7 +6,7 @@ import java.util.Calendar;
 public class FibonacciSeries {
 
 
-	public static long fibonacci(int n){
+	public static long fibonacci(int n){	
 		return (n<3)?1:(fibonacci(n-2)+fibonacci(n-1));
 	}
 	

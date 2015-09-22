@@ -2,6 +2,7 @@ package com.nostalgiaguy.dynamicprogramming;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 public class BottomUpApproachFibonacciSeries_1 {
 	
@@ -21,6 +22,7 @@ public class BottomUpApproachFibonacciSeries_1 {
 	
 	public static void main(String args[]){
 		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
+		System.out.println(new SimpleDateFormat("HH:mm:ss").format(Calendar.getInstance().getTime()));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"1.  fibonacci(10)="+fibonacci(10));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"2.  fibonacci(15)="+fibonacci(15));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"3.  fibonacci(20)="+fibonacci(20));
@@ -32,10 +34,15 @@ public class BottomUpApproachFibonacciSeries_1 {
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"9.  fibonacci(50)="+fibonacci(50));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"10. fibonacci(55)="+fibonacci(55));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"11. fibonacci(60)="+fibonacci(60));
-		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"12. fibonacci(10000)="+fibonacci(10000));
+		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"12. fibonacci(10000)="+fibonacci(100));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"13. fibonacci(30000)="+fibonacci(30000));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"14. fibonacci(50000)="+fibonacci(50000));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"15. fibonacci(500000)="+fibonacci(500000));
+		
+		SimpleDateFormat format1 = new SimpleDateFormat("yyyy-MM-dd");
+		String formatted = format1.format(new Date());
+		System.out.println("Current Date : " + formatted);
+
 	}
 
 }

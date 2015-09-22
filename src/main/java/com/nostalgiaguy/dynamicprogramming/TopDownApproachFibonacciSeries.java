@@ -42,7 +42,7 @@ public class TopDownApproachFibonacciSeries {
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"8.  fibonacci(45)="+fibonacci(45));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"9.  fibonacci(50)="+fibonacci(50));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"10. fibonacci(55)="+fibonacci(55));
-		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"11. fibonacci(60)="+fibonacci(60));
+		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"11. fibonacci(100)="+fibonacci(100));
 		System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"11. fibonacci(7000)="+fibonacci(7000));
 	//	System.out.println(sdf.format(Calendar.getInstance().getTime())+" "+"11. fibonacci(8000)="+fibonacci(8000));
 	}
