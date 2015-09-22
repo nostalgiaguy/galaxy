@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class TestClass {
 	@BeforeSuite
 	public void beforeSuite() {
-		System.out.println("beforeSuite");
+		System.out.println("********BEFORE SUITE**********");
 	}
 	
 	@Test
@@ -17,6 +17,6 @@ public class TestClass {
 	
 	@AfterSuite
 	public void afterSuite() {
-		System.out.println("afterSuite");
+		System.out.println("********AFTER SUITE***********");
 	}
 }
