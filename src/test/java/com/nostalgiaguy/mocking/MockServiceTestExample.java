@@ -17,7 +17,7 @@ public class MockServiceTestExample {
 	 * Test1.
 	 */
 	@Test
-	public void testSimpleInt() {
+	public void mockTest() {
 		// create mock
 		TestService test = mock(TestService.class);
 
@@ -27,10 +27,18 @@ public class MockServiceTestExample {
 		// use mock in test....
 		assertEquals(test.getUniqueId(), 43);
 	}
-	
+
+	@Test
+	public void spyTest(){
+
+		TestService t1=spy(TestService.class);
+		when(t1.getUniqueId()).thenReturn(43);
+		assertEquals(t1.getUniqueId(), t1.getSameUniqueId());
+	}
+
 	//************************************************************************************************************************
 	
-	@Test
+	//@Test
 	public void demoTest(){
 		
 		TestService t=new TestService();
@@ -73,7 +81,7 @@ public class MockServiceTestExample {
 		assertEquals(-1, c.compareTo(9));
 	}
 
-	@Test
+	//@Test
 	public void testVerify() {
 		// create and configure mock
 		TestService test = Mockito.mock(TestService.class);
