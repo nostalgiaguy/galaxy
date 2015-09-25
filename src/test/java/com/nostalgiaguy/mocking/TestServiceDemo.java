@@ -10,7 +10,7 @@ import org.junit.Test;
 import org.mockito.Matchers;
 import org.mockito.Mockito;
 
-public class MockServiceTestExample {
+public class TestServiceDemo {
 	
 
 	/**
